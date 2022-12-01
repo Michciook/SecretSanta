@@ -1,0 +1,35 @@
+body {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    min-height: 100%;
+}
+
+input {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 1);
+    clear: both;
+    width: 70%;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30%;
+}
+
+input[type=submit] {
+    background: white;
+    color: crimson;
+}
+
+input[type=submit]:hover {
+    background: crimson;
+    color: white;
+}
+
+::placeholder {
+    color:rgba(220, 220, 220, 1);
+}

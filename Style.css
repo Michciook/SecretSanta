@@ -1,0 +1,74 @@
+body {
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    min-height: 100%;
+}
+
+
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(white, white);
+    border-radius: 50%;
+}
+
+p {
+    font-size: 24px;
+    margin: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(210, 210, 210);
+}
+
+input {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 1);
+    clear: both;
+    width: 100%;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+::placeholder {
+    color:rgba(220, 220, 220, 1);
+}
+
+#wantedItems {
+    height: 200px;
+  }
+
+#topic {
+    height: 200px;
+  }
+
+input[type=submit] {
+    background: white;
+    color: crimson;
+}
+
+input[type=submit]:hover {
+    background: crimson;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    clear: both;
+    position: relative;
+    height: 20px;
+    margin-top: -1px;
+}
+
+
